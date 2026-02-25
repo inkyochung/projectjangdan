@@ -57,8 +57,9 @@ const ARTISTS: Artist[] = [
 Obf 팀에서 라이브 셋 아티스트로도 활동중이다.
 OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서, 
 새로운 경계를 넓혀가고 있으며,
-한국의 전자음악과 국악씬에 보다 확장된 지평을 선보이다.`,
-    thumbnail: 'https://picsum.photos/seed/oykni/800/1000',
+한국의 전자음악과 국악씬에 보다 확장된 지평을 선보이고 있다.`,
+    // 실제 경로로 수정 (파일 이름이 thumbnail.jpg.jpg 인 경우)
+    thumbnail: '/artists/oykni/thumbnail.jpg.jpg', 
     videoUrl: 'https://www.youtube.com/embed/Ff5WaVMYnKQ',
     additionalVideos: [
       'https://www.youtube.com/embed/TamKzd2muL8',
@@ -70,9 +71,8 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
       'https://www.youtube.com/embed/edr2Utq5mOM'
     ],
     images: [
-      'https://picsum.photos/seed/oykni1/800/1000',
-      'https://picsum.photos/seed/oykni2/800/1000',
-      'https://picsum.photos/seed/oykni3/800/1000',
+      '/artists/oykni/image1.jpg',
+      '/artists/oykni/image2.jpg',
     ],
     tags: ['OYKNI', 'electronic', 'media art', 'performance', 'wonderwave', 'wonderave', 'obf', 'projectjangdan'],
     socials: {
@@ -86,7 +86,7 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
     englishName: 'Jongmey Kim',
     role: 'Ajaeng / Traditional Music',
     description: '',
-    thumbnail: 'https://picsum.photos/seed/jongmey/800/1000',
+    thumbnail: '/artists/jongmey-kim/thumbnail.jpg.jpg',
     videoUrl: 'https://www.youtube.com/embed/a7L7kcmrMUs',
     additionalVideos: [
       'https://www.youtube.com/embed/5l0zNbbNlK8',
@@ -94,9 +94,7 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
       'https://www.youtube.com/embed/Ff5WaVMYnKQ'
     ],
     images: [
-      'https://picsum.photos/seed/jongmey1/800/1000',
-      'https://picsum.photos/seed/jongmey2/800/1000',
-      'https://picsum.photos/seed/jongmey3/800/1000',
+      '/artists/jongmey-kim/image1.jpg',
     ],
     tags: ['Jongmeykim', 'mediaart', 'wonderwave', 'wonderave', 'projectjangdan'],
     socials: {
@@ -110,12 +108,10 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
     englishName: 'Brotha Q',
     role: 'Bassist / Producer',
     description: '',
-    thumbnail: 'https://picsum.photos/seed/brothaq/800/1000',
+    thumbnail: '/artists/brotha-q/thumbnail.jpg.jpg',
     videoUrl: 'https://www.youtube.com/embed/v6N6my6N1wo',
     images: [
-      'https://picsum.photos/seed/brothaq1/800/1000',
-      'https://picsum.photos/seed/brothaq2/800/1000',
-      'https://picsum.photos/seed/brothaq3/800/1000',
+      '/artists/brotha-q/image1.jpg',
     ],
     tags: ['brothaq', 'wonderwave', 'wonderave', 'projectjangdan'],
     socials: {
@@ -129,7 +125,7 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
     englishName: 'Gitae Um',
     role: 'Percussionist',
     description: '',
-    thumbnail: 'https://picsum.photos/seed/gitae/800/1000',
+    thumbnail: '/artists/gitae-um/thumbnail.jpg.jpg',
     photoSeries: {
       title: 'GAZE _가제',
       content: `한국적인 것은 무엇일까. 한국적,이라고 했을 때 ‘한국’은 어떠한가.
@@ -146,26 +142,14 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
 한없이 작아진 나는 한없이 작아진 것들 속에서 오히려 자유롭다.
 나에게 한국은 작은 것이고 숨을 통해 스미는 것이며 흐르는 것이다. 
 그렇기에 가장 큰 것이기도 하다. 눈을 감아본다.
-다시 눈을 뜬다. 시선 끝엔 무엇이 있는가.
-
-How can we define what is Korean? What about "Korea" when we say "Korean"? In fact, the series started with the question of whether everything in this land that we are stepping on is Korea and Korean. The scenes we face every day, perhaps small stains on sidewalk blocks, a small dot of traffic lights, lights glimmering from show windows, someone's hem, footprints, scattered stones across the roads, and even the gaps that we have know idea where it started from. It all dwells there, and it all makes it dwell there. I stop myself and look at the big, fast passing scenes. I divide them into smaller pieces and stare. Being infinitely small, I'm rather free in the infinitely smaller things. To me, Korea is the smallest, seeping through the breath, flowing thing. That's why it's the biggest one at the same time. Close your eyes. Open your eyes again. What's at the end of your sight?`,
+다시 눈을 뜬다. 시선 끝엔 무엇이 있는가.`,
       images: [
-        'https://picsum.photos/seed/gaze1/800/1000',
-        'https://picsum.photos/seed/gaze2/800/1000',
-        'https://picsum.photos/seed/gaze3/800/1000',
-        'https://picsum.photos/seed/gaze4/800/1000',
-        'https://picsum.photos/seed/gaze5/800/1000',
-        'https://picsum.photos/seed/gaze6/800/1000',
-        'https://picsum.photos/seed/gaze7/800/1000',
-        'https://picsum.photos/seed/gaze8/800/1000',
-        'https://picsum.photos/seed/gaze9/800/1000',
-        'https://picsum.photos/seed/gaze10/800/1000',
+        '/artists/gitae-um/gaze1.jpg',
+        '/artists/gitae-um/gaze2.jpg',
       ]
     },
     images: [
-      'https://picsum.photos/seed/gitae1/800/1000',
-      'https://picsum.photos/seed/gitae2/800/1000',
-      'https://picsum.photos/seed/gitae3/800/1000',
+      '/artists/gitae-um/image1.jpg',
     ],
     tags: ['gitaeum', 'wonderwave', 'wonderave', 'projectjangdan'],
     socials: {
@@ -178,15 +162,13 @@ How can we define what is Korean? What about "Korea" when we say "Korean"? In fa
     englishName: 'VV Aldemin 864',
     role: 'Visual / Media Art',
     description: '',
-    thumbnail: 'https://picsum.photos/seed/vvaldemin/800/1000',
+    thumbnail: '/artists/vvaldemin864/thumbnail.jpg.jpg',
     videoUrl: 'https://www.youtube.com/embed/K2XbQ8HPLr0',
     additionalVideos: [
       'https://www.youtube.com/embed/TamKzd2muL8'
     ],
     images: [
-      'https://picsum.photos/seed/vvaldemin1/800/1000',
-      'https://picsum.photos/seed/vvaldemin2/800/1000',
-      'https://picsum.photos/seed/vvaldemin3/800/1000',
+      '/artists/vvaldemin864/image1.jpg',
     ],
     tags: ['VValdemin864', 'Videoart', 'mediaart', 'wonderwave', 'wonderave', 'projectjangdan'],
     socials: {
@@ -210,12 +192,17 @@ const Navbar = ({ onNavigate, onContactClick }: { onNavigate: (page: 'home' | 'a
         onClick={() => onNavigate('home')}
         className="cursor-pointer"
       >
+        {/* 로고 경로 수정: public 폴더에 logo.png가 있다고 가정 */}
         <img 
-          src="https://picsum.photos/seed/jangdan-logo/200/80" 
+          src="/logo.png" 
           alt="Jangdan Logo" 
           className="h-8 w-auto object-contain"
-          referrerPolicy="no-referrer"
+          onError={(e) => {
+            // 로고가 없을 경우 대비한 텍스트 표시 로직
+            (e.target as HTMLImageElement).style.display = 'none';
+          }}
         />
+        <span className="text-white font-black italic tracking-tighter text-xl md:hidden">JANGDAN</span>
       </div>
       <div className="hidden md:flex gap-6 text-[10px] uppercase tracking-[0.2em] font-semibold opacity-60">
         <button onClick={() => onNavigate('artists')} className="hover:opacity-100 transition-opacity">Artists</button>
@@ -264,7 +251,9 @@ const ArtistsPage = ({ onOpenArtist }: { onOpenArtist: (a: Artist) => void }) =>
                   src={artist.thumbnail} 
                   alt={artist.name}
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700"
-                  referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/error/800/1000';
+                  }}
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
               </div>
@@ -290,7 +279,6 @@ const Hero = () => {
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden py-32">
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150vw] h-[150vw] rounded-full bg-[radial-gradient(circle,rgba(242,125,38,0.15)_0%,transparent_70%)] blur-[120px] animate-pulse" />
-        <div className="absolute top-0 left-0 w-full h-full bg-[url('/textures/stardust.png')] opacity-20" />
       </div>
 
       <motion.div 
@@ -312,14 +300,6 @@ const Hero = () => {
               그들은 한국의 전통문화를 주제로 개인의 창작 예술 네트워크 구축을 통해 공연기획, 공공예술 등의 다양한 활동을 병행하고 있으며, 
               우리나라의 전통문화와 현대문화를 결합한 다양한 컨텐츠를 제작하여 한국문화의 우수성을 전세계에 알리고자 한다.
             </p>
-            
-            <p className="text-[11px] md:text-xs opacity-40 font-light leading-relaxed tracking-wide uppercase">
-              Project_Jangdan releases cultural and artistic contents created by talented artists in various creative fields. 
-              Young artists with diverse individualities interact harmoniously with the world while respecting the diversity of individual artistic activities. 
-              With the Korean traditional culture as the theme, they expand their creative works by being faithful to individual creative desires and collective instincts. 
-              By actively intervening in all processes of socialization of art, they want to show the nature of art where the Korean traditional culture intersects with the modern culture. 
-              Through the establishment of an art network of several contemporary artists, various activities including performance planning and public art are being carried out in parallel with producing various contents that merge the Korean traditional culture and modern culture to showcase the excellence of the Korean culture to the world.
-            </p>
           </div>
 
           <div className="pt-8 border-t border-white/10 w-full max-w-xs">
@@ -337,29 +317,17 @@ const Hero = () => {
           </motion.div>
         </div>
       </motion.div>
-
-      <div className="absolute left-8 bottom-12 z-10 hidden md:block">
-        <span className="vertical-text text-[10px] uppercase tracking-[0.3em] font-bold opacity-30">
-          Est. 2017 / Seoul, Korea
-        </span>
-      </div>
     </section>
   );
 };
 
-interface ArtistSectionProps {
-  artist: Artist;
-  onOpen: (a: Artist) => void;
-}
-
-const ArtistSection = ({ artist, onOpen }: ArtistSectionProps) => {
+const ArtistSection = ({ artist, onOpen }: { artist: Artist, onOpen: (a: Artist) => void }) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end start"]
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], [100, -100]);
   const rotate = useTransform(scrollYProgress, [0, 1], [-5, 5]);
 
   return (
@@ -414,20 +382,15 @@ const ArtistSection = ({ artist, onOpen }: ArtistSectionProps) => {
               src={artist.thumbnail} 
               alt={artist.name}
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
-              referrerPolicy="no-referrer"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/error/800/1000';
+              }}
             />
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors flex items-center justify-center">
               <div className="w-20 h-20 rounded-full glass flex items-center justify-center scale-0 group-hover:scale-100 transition-transform duration-500">
                 <Play className="w-8 h-8 fill-white" />
               </div>
             </div>
-          </motion.div>
-          
-          <motion.div 
-            style={{ x }}
-            className="absolute -bottom-12 -right-12 text-[15vw] font-black opacity-[0.03] pointer-events-none whitespace-nowrap italic font-serif"
-          >
-            {artist.englishName}
           </motion.div>
         </div>
       </div>
@@ -456,11 +419,6 @@ const ArtistModal = ({ artist, onClose }: { artist: Artist, onClose: () => void 
             <h5 className="text-2xl font-bold uppercase tracking-tighter">
               {artist.photoSeries ? 'Photo' : 'MUSIC VIDEO'}
             </h5>
-            <div className="flex gap-4 opacity-40 text-xs uppercase tracking-widest font-bold">
-              <span>01</span>
-              <div className="w-12 h-[1px] bg-white self-center" />
-              <span>{artist.photoSeries ? 'Photo' : 'Video'}</span>
-            </div>
           </div>
 
           {artist.photoSeries ? (
@@ -479,14 +437,15 @@ const ArtistModal = ({ artist, onClose }: { artist: Artist, onClose: () => void 
                     key={idx}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ delay: (idx % 4) * 0.1 }}
                     className="aspect-square rounded-3xl overflow-hidden glass shadow-2xl"
                   >
                     <img 
                       src={img} 
                       alt={`${artist.name} series ${idx}`} 
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                      referrerPolicy="no-referrer"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/error/800/1000';
+                      }}
                     />
                   </motion.div>
                 ))}
@@ -504,16 +463,6 @@ const ArtistModal = ({ artist, onClose }: { artist: Artist, onClose: () => void 
                   />
                 </div>
               )}
-              {artist.additionalVideos && artist.additionalVideos.map((video, idx) => (
-                <div key={idx} className="aspect-video w-full rounded-3xl overflow-hidden glass shadow-2xl">
-                  <iframe 
-                    src={video} 
-                    className="w-full h-full" 
-                    allowFullScreen 
-                    title={`${artist.name} video ${idx + 2}`}
-                  />
-                </div>
-              ))}
             </div>
           )}
         </section>
@@ -526,7 +475,9 @@ const ArtistModal = ({ artist, onClose }: { artist: Artist, onClose: () => void 
                   src={artist.thumbnail} 
                   alt={artist.name} 
                   className="w-full h-full object-cover grayscale" 
-                  referrerPolicy="no-referrer"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = 'https://picsum.photos/seed/error/800/1000';
+                  }}
                 />
               </div>
               <h6 className="text-4xl font-black tracking-tighter">{artist.name}</h6>
@@ -534,21 +485,6 @@ const ArtistModal = ({ artist, onClose }: { artist: Artist, onClose: () => void 
             <p className="opacity-60 leading-relaxed whitespace-pre-line">
               {artist.description}
             </p>
-          </div>
-          <div className="flex flex-col gap-6">
-            <span className="text-[10px] uppercase tracking-[0.3em] font-bold opacity-40">Connect</span>
-            <div className="flex gap-8">
-              {artist.socials?.instagram && (
-                <a href={artist.socials.instagram} target="_blank" rel="noopener noreferrer">
-                  <Instagram className="w-6 h-6 cursor-pointer hover:text-accent transition-colors" />
-                </a>
-              )}
-              {artist.socials?.youtube && (
-                <a href={artist.socials.youtube} target="_blank" rel="noopener noreferrer">
-                  <Youtube className="w-6 h-6 cursor-pointer hover:text-accent transition-colors" />
-                </a>
-              )}
-            </div>
           </div>
         </footer>
       </div>
@@ -572,58 +508,12 @@ const ContactModal = ({ onClose }: { onClose: () => void }) => {
       </button>
 
       <div className="max-w-2xl w-full space-y-16 text-center">
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.1 }}
-          className="space-y-4"
-        >
+        <div className="space-y-4">
           <span className="text-accent text-[10px] uppercase tracking-[0.6em] font-black block">Email</span>
-          <a 
-            href="mailto:contact@wonderwave.asia" 
-            className="text-4xl md:text-7xl font-black tracking-tighter hover:text-accent transition-all duration-500 block"
-          >
+          <a href="mailto:contact@wonderwave.asia" className="text-4xl md:text-7xl font-black tracking-tighter hover:text-accent transition-all duration-500 block">
             contact@wonderwave.asia
           </a>
-        </motion.div>
-
-        <motion.div
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.2 }}
-          className="space-y-8"
-        >
-          <span className="text-accent text-[10px] uppercase tracking-[0.6em] font-black block">Instagram</span>
-          <div className="space-y-4">
-            <a 
-              href="https://instagram.com/wonderwave.official" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-4xl md:text-7xl font-black tracking-tighter hover:text-accent transition-all duration-500 block"
-            >
-              @wonderwave.official
-            </a>
-            <a 
-              href="https://instagram.com/wonderave.official" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-4xl md:text-7xl font-black tracking-tighter hover:text-accent transition-all duration-500 block"
-            >
-              @wonderave.official
-            </a>
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.2 }}
-          transition={{ delay: 0.4 }}
-          className="pt-12 border-t border-white/10"
-        >
-          <p className="text-[10px] uppercase tracking-[0.3em] font-bold">
-            Creative Collective Jangdan.
-          </p>
-        </motion.div>
+        </div>
       </div>
     </motion.div>
   );
@@ -633,14 +523,6 @@ export default function App() {
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState<'home' | 'artists'>('home');
-
-  useEffect(() => {
-    if (selectedArtist || isContactOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-  }, [selectedArtist, isContactOpen]);
 
   const handleOpenArtist = (artist: Artist) => {
     setSelectedArtist(artist);
@@ -652,125 +534,46 @@ export default function App() {
   };
 
   return (
-    <main className="relative min-h-screen">
+    <main className="relative min-h-screen bg-black text-white">
       <GridLines />
       <Navbar onNavigate={handleNavigate} onContactClick={() => setIsContactOpen(true)} />
       
       <AnimatePresence mode="wait">
         {currentPage === 'home' ? (
-          <motion.div 
-            key="home"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
+          <motion.div key="home">
             <Hero />
-
             <section className="bg-white text-black py-24 px-8">
               <div className="container mx-auto flex flex-col md:flex-row justify-between items-end gap-8">
                 <div className="max-w-2xl">
-                  <span className="text-xs font-bold uppercase tracking-widest mb-4 block opacity-40">Our Vision</span>
                   <h2 className="text-4xl md:text-6xl font-black tracking-tighter leading-[0.9] break-keep">
                     우리는 전통위에 오늘을 쌓습니다.<br />
-                    <span className="font-traditional italic text-accent">전통을 새롭게, 예술을 다르게.</span>
+                    <span className="italic text-accent">전통을 새롭게, 예술을 다르게.</span>
                   </h2>
                 </div>
-                <p className="max-w-xs text-sm opacity-60 leading-relaxed font-medium break-keep whitespace-pre-line">
-                  장단 프로젝트는 다양한 분야의 아티스트들이 모여
-                  한국의 전통을 현대적 감각으로 재해석하는
-                  크리에이티브 컬렉티브입니다.
-                  개인의 예술은 존중받고, 그 다양성은 하나의 울림이 됩니다.
-                </p>
               </div>
             </section>
-
-            <section id="artists-preview" className="relative">
+            <section>
               {ARTISTS.slice(0, 3).map(artist => (
-                <div key={artist.id}>
-                  <ArtistSection 
-                    artist={artist} 
-                    onOpen={handleOpenArtist} 
-                  />
-                </div>
+                <ArtistSection key={artist.id} artist={artist} onOpen={handleOpenArtist} />
               ))}
-              <div className="py-24 flex justify-center">
-                <button 
-                  onClick={() => handleNavigate('artists')}
-                  className="px-12 py-4 rounded-full border border-white/20 text-sm font-bold uppercase tracking-[0.3em] hover:bg-white hover:text-black transition-all"
-                >
-                  View All Artists
-                </button>
-              </div>
             </section>
           </motion.div>
         ) : (
-          <motion.div 
-            key="artists-page"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
-            <ArtistsPage onOpenArtist={handleOpenArtist} />
-          </motion.div>
+          <ArtistsPage onOpenArtist={handleOpenArtist} />
         )}
       </AnimatePresence>
 
       <footer className="py-32 px-8 border-t border-white/5">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
-          <div className="md:col-span-2 space-y-8">
-          <img 
-            src="https://picsum.photos/seed/jangdan-logo/200/80" 
-            alt="Jangdan Logo" 
-            className="h-12 w-auto object-contain brightness-0 invert opacity-80"
-            referrerPolicy="no-referrer"
-          />
-          <p className="max-w-sm opacity-40 text-sm leading-relaxed">
-              © 2024 Jangdan Project. All rights reserved.<br />
-              Seoul, Korea. Built for creative minds.
-            </p>
-          </div>
-          <div className="space-y-6">
-            <span className="text-[10px] uppercase tracking-[0.3em] font-bold opacity-40">Navigation</span>
-            <ul className="space-y-4 text-sm font-bold uppercase tracking-widest">
-              <li onClick={() => handleNavigate('home')} className="hover:text-accent cursor-pointer transition-colors">Home</li>
-              <li onClick={() => handleNavigate('artists')} className="hover:text-accent cursor-pointer transition-colors">Artists</li>
-              <li onClick={() => handleNavigate('home')} className="hover:text-accent cursor-pointer transition-colors">Projects</li>
-              <li 
-                onClick={() => setIsContactOpen(true)}
-                className="hover:text-accent cursor-pointer transition-colors"
-              >
-                Contact
-              </li>
-            </ul>
-          </div>
-          <div className="space-y-6">
-            <span className="text-[10px] uppercase tracking-[0.3em] font-bold opacity-40">Social</span>
-            <ul className="space-y-4 text-sm font-bold uppercase tracking-widest">
-              <li className="hover:text-accent cursor-pointer transition-colors">Instagram</li>
-              <li className="hover:text-accent cursor-pointer transition-colors">Youtube</li>
-              <li className="hover:text-accent cursor-pointer transition-colors">Behance</li>
-              <li className="hover:text-accent cursor-pointer transition-colors">Twitter</li>
-            </ul>
-          </div>
+        <div className="container mx-auto">
+          <img src="/logo.png" alt="Logo" className="h-12 w-auto mb-8 brightness-0 invert opacity-80" />
+          <p className="opacity-40 text-sm">© 2024 Jangdan Project. All rights reserved.</p>
         </div>
       </footer>
 
       <AnimatePresence>
-        {selectedArtist && (
-          <ArtistModal 
-            artist={selectedArtist} 
-            onClose={() => setSelectedArtist(null)} 
-          />
-        )}
-        {isContactOpen && (
-          <ContactModal onClose={() => setIsContactOpen(false)} />
-        )}
+        {selectedArtist && <ArtistModal artist={selectedArtist} onClose={() => setSelectedArtist(null)} />}
+        {isContactOpen && <ContactModal onClose={() => setIsContactOpen(false)} />}
       </AnimatePresence>
-
-      <div className="fixed inset-0 pointer-events-none z-[-1]">
-        <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-accent/5 to-transparent" />
-        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent" />
-      </div>
     </main>
   );
 }
