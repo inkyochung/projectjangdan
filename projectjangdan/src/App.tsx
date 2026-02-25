@@ -57,8 +57,8 @@ const ARTISTS: Artist[] = [
 Obf 팀에서 라이브 셋 아티스트로도 활동중이다.
 OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서, 
 새로운 경계를 넓혀가고 있으며,
-한국의 전자음악과 국악씬에 보다 확장된 지평을 선보이고 있다.`,
-    thumbnail: '/artists/oykni/thumbnail.jpg',
+한국의 전자음악과 국악씬에 보다 확장된 지평을 선보이다.`,
+    thumbnail: 'https://picsum.photos/seed/oykni/800/1000',
     videoUrl: 'https://www.youtube.com/embed/Ff5WaVMYnKQ',
     additionalVideos: [
       'https://www.youtube.com/embed/TamKzd2muL8',
@@ -70,9 +70,9 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
       'https://www.youtube.com/embed/edr2Utq5mOM'
     ],
     images: [
-      '/artists/oykni/gallery1.jpg',
-      '/artists/oykni/gallery2.jpg',
-      '/artists/oykni/gallery3.jpg',
+      'https://picsum.photos/seed/oykni1/800/1000',
+      'https://picsum.photos/seed/oykni2/800/1000',
+      'https://picsum.photos/seed/oykni3/800/1000',
     ],
     tags: ['OYKNI', 'electronic', 'media art', 'performance', 'wonderwave', 'wonderave', 'obf', 'projectjangdan'],
     socials: {
@@ -86,7 +86,7 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
     englishName: 'Jongmey Kim',
     role: 'Ajaeng / Traditional Music',
     description: '',
-    thumbnail: '/artists/jongmey-kim/thumbnail.jpg',
+    thumbnail: 'https://picsum.photos/seed/jongmey/800/1000',
     videoUrl: 'https://www.youtube.com/embed/a7L7kcmrMUs',
     additionalVideos: [
       'https://www.youtube.com/embed/5l0zNbbNlK8',
@@ -94,9 +94,9 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
       'https://www.youtube.com/embed/Ff5WaVMYnKQ'
     ],
     images: [
-      '/artists/jongmey-kim/gallery1.jpg',
-      '/artists/jongmey-kim/gallery2.jpg',
-      '/artists/jongmey-kim/gallery3.jpg',
+      'https://picsum.photos/seed/jongmey1/800/1000',
+      'https://picsum.photos/seed/jongmey2/800/1000',
+      'https://picsum.photos/seed/jongmey3/800/1000',
     ],
     tags: ['Jongmeykim', 'mediaart', 'wonderwave', 'wonderave', 'projectjangdan'],
     socials: {
@@ -110,12 +110,12 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
     englishName: 'Brotha Q',
     role: 'Bassist / Producer',
     description: '',
-    thumbnail: '/artists/brotha-q/thumbnail.jpg',
+    thumbnail: 'https://picsum.photos/seed/brothaq/800/1000',
     videoUrl: 'https://www.youtube.com/embed/v6N6my6N1wo',
     images: [
-      '/artists/brotha-q/gallery1.jpg',
-      '/artists/brotha-q/gallery2.jpg',
-      '/artists/brotha-q/gallery3.jpg',
+      'https://picsum.photos/seed/brothaq1/800/1000',
+      'https://picsum.photos/seed/brothaq2/800/1000',
+      'https://picsum.photos/seed/brothaq3/800/1000',
     ],
     tags: ['brothaq', 'wonderwave', 'wonderave', 'projectjangdan'],
     socials: {
@@ -129,7 +129,7 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
     englishName: 'Gitae Um',
     role: 'Percussionist',
     description: '',
-    thumbnail: '/artists/gitae-um/thumbnail.jpg',
+    thumbnail: 'https://picsum.photos/seed/gitae/800/1000',
     photoSeries: {
       title: 'GAZE _가제',
       content: `한국적인 것은 무엇일까. 한국적,이라고 했을 때 ‘한국’은 어떠한가.
@@ -150,36 +150,22 @@ OYKNI는 기존의 전자음악이 가지고 있던 형식을 넘어서,
 
 How can we define what is Korean? What about "Korea" when we say "Korean"? In fact, the series started with the question of whether everything in this land that we are stepping on is Korea and Korean. The scenes we face every day, perhaps small stains on sidewalk blocks, a small dot of traffic lights, lights glimmering from show windows, someone's hem, footprints, scattered stones across the roads, and even the gaps that we have know idea where it started from. It all dwells there, and it all makes it dwell there. I stop myself and look at the big, fast passing scenes. I divide them into smaller pieces and stare. Being infinitely small, I'm rather free in the infinitely smaller things. To me, Korea is the smallest, seeping through the breath, flowing thing. That's why it's the biggest one at the same time. Close your eyes. Open your eyes again. What's at the end of your sight?`,
       images: [
-        '/artists/gitae-um/gaze01.jpg',
-        '/artists/gitae-um/gaze02.jpg',
-        '/artists/gitae-um/gaze03.jpg',
-        '/artists/gitae-um/gaze04.jpg',
-        '/artists/gitae-um/gaze05.jpg',
-        '/artists/gitae-um/gaze06.jpg',
-        '/artists/gitae-um/gaze07.jpg',
-        '/artists/gitae-um/gaze08.jpg',
-        '/artists/gitae-um/gaze09.jpg',
-        '/artists/gitae-um/gaze10.jpg',
-        '/artists/gitae-um/gaze11.jpg',
-        '/artists/gitae-um/gaze12.jpg',
-        '/artists/gitae-um/gaze13.jpg',
-        '/artists/gitae-um/gaze14.jpg',
-        '/artists/gitae-um/gaze15.jpg',
-        '/artists/gitae-um/gaze16.jpg',
-        '/artists/gitae-um/gaze17.jpg',
-        '/artists/gitae-um/gaze18.jpg',
-        '/artists/gitae-um/gaze19.jpg',
-        '/artists/gitae-um/gaze20.jpg',
-        '/artists/gitae-um/gaze21.jpg',
-        '/artists/gitae-um/gaze22.jpg',
-        '/artists/gitae-um/gaze23.jpg',
-        '/artists/gitae-um/gaze24.jpg',
+        'https://picsum.photos/seed/gaze1/800/1000',
+        'https://picsum.photos/seed/gaze2/800/1000',
+        'https://picsum.photos/seed/gaze3/800/1000',
+        'https://picsum.photos/seed/gaze4/800/1000',
+        'https://picsum.photos/seed/gaze5/800/1000',
+        'https://picsum.photos/seed/gaze6/800/1000',
+        'https://picsum.photos/seed/gaze7/800/1000',
+        'https://picsum.photos/seed/gaze8/800/1000',
+        'https://picsum.photos/seed/gaze9/800/1000',
+        'https://picsum.photos/seed/gaze10/800/1000',
       ]
     },
     images: [
-      '/artists/gitae-um/gallery1.jpg',
-      '/artists/gitae-um/gallery2.jpg',
-      '/artists/gitae-um/gallery3.jpg',
+      'https://picsum.photos/seed/gitae1/800/1000',
+      'https://picsum.photos/seed/gitae2/800/1000',
+      'https://picsum.photos/seed/gitae3/800/1000',
     ],
     tags: ['gitaeum', 'wonderwave', 'wonderave', 'projectjangdan'],
     socials: {
@@ -192,15 +178,15 @@ How can we define what is Korean? What about "Korea" when we say "Korean"? In fa
     englishName: 'VV Aldemin 864',
     role: 'Visual / Media Art',
     description: '',
-    thumbnail: '/artists/vvaldemin864/thumbnail.jpg',
+    thumbnail: 'https://picsum.photos/seed/vvaldemin/800/1000',
     videoUrl: 'https://www.youtube.com/embed/K2XbQ8HPLr0',
     additionalVideos: [
       'https://www.youtube.com/embed/TamKzd2muL8'
     ],
     images: [
-      '/artists/vvaldemin864/gallery1.jpg',
-      '/artists/vvaldemin864/gallery2.jpg',
-      '/artists/vvaldemin864/gallery3.jpg',
+      'https://picsum.photos/seed/vvaldemin1/800/1000',
+      'https://picsum.photos/seed/vvaldemin2/800/1000',
+      'https://picsum.photos/seed/vvaldemin3/800/1000',
     ],
     tags: ['VValdemin864', 'Videoart', 'mediaart', 'wonderwave', 'wonderave', 'projectjangdan'],
     socials: {
@@ -225,9 +211,10 @@ const Navbar = ({ onNavigate, onContactClick }: { onNavigate: (page: 'home' | 'a
         className="cursor-pointer"
       >
         <img 
-          src="/logo.png" 
+          src="https://picsum.photos/seed/jangdan-logo/200/80" 
           alt="Jangdan Logo" 
           className="h-8 w-auto object-contain"
+          referrerPolicy="no-referrer"
         />
       </div>
       <div className="hidden md:flex gap-6 text-[10px] uppercase tracking-[0.2em] font-semibold opacity-60">
@@ -277,6 +264,7 @@ const ArtistsPage = ({ onOpenArtist }: { onOpenArtist: (a: Artist) => void }) =>
                   src={artist.thumbnail} 
                   alt={artist.name}
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700"
+                  referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
               </div>
@@ -300,7 +288,6 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden py-32">
-      {/* Immersive Background (Inspired by Spline Earth) */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150vw] h-[150vw] rounded-full bg-[radial-gradient(circle,rgba(242,125,38,0.15)_0%,transparent_70%)] blur-[120px] animate-pulse" />
         <div className="absolute top-0 left-0 w-full h-full bg-[url('/textures/stardust.png')] opacity-20" />
@@ -351,7 +338,6 @@ const Hero = () => {
         </div>
       </motion.div>
 
-      {/* Side Vertical Text (Inspired by Project Jangdan) */}
       <div className="absolute left-8 bottom-12 z-10 hidden md:block">
         <span className="vertical-text text-[10px] uppercase tracking-[0.3em] font-bold opacity-30">
           Est. 2017 / Seoul, Korea
@@ -428,6 +414,7 @@ const ArtistSection = ({ artist, onOpen }: ArtistSectionProps) => {
               src={artist.thumbnail} 
               alt={artist.name}
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
+              referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors flex items-center justify-center">
               <div className="w-20 h-20 rounded-full glass flex items-center justify-center scale-0 group-hover:scale-100 transition-transform duration-500">
@@ -436,7 +423,6 @@ const ArtistSection = ({ artist, onOpen }: ArtistSectionProps) => {
             </div>
           </motion.div>
           
-          {/* Floating Background Text */}
           <motion.div 
             style={{ x }}
             className="absolute -bottom-12 -right-12 text-[15vw] font-black opacity-[0.03] pointer-events-none whitespace-nowrap italic font-serif"
@@ -465,7 +451,6 @@ const ArtistModal = ({ artist, onClose }: { artist: Artist, onClose: () => void 
       </div>
 
       <div className="container mx-auto px-8 py-12 space-y-24">
-        {/* Content Section (Video or Photo Series) */}
         <section className="space-y-12">
           <div className="flex items-center justify-between">
             <h5 className="text-2xl font-bold uppercase tracking-tighter">
@@ -501,6 +486,7 @@ const ArtistModal = ({ artist, onClose }: { artist: Artist, onClose: () => void 
                       src={img} 
                       alt={`${artist.name} series ${idx}`} 
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                      referrerPolicy="no-referrer"
                     />
                   </motion.div>
                 ))}
@@ -532,12 +518,16 @@ const ArtistModal = ({ artist, onClose }: { artist: Artist, onClose: () => void 
           )}
         </section>
 
-        {/* Footer Info */}
         <footer className="py-24 border-t border-white/10 flex flex-col md:flex-row justify-between gap-12">
           <div className="max-w-xl space-y-6">
             <div className="flex items-center gap-6">
               <div className="w-16 h-16 rounded-full overflow-hidden border border-white/10">
-                <img src={artist.thumbnail} alt={artist.name} className="w-full h-full object-cover grayscale" />
+                <img 
+                  src={artist.thumbnail} 
+                  alt={artist.name} 
+                  className="w-full h-full object-cover grayscale" 
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <h6 className="text-4xl font-black tracking-tighter">{artist.name}</h6>
             </div>
@@ -729,9 +719,10 @@ export default function App() {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="md:col-span-2 space-y-8">
           <img 
-            src="/logo.png" 
+            src="https://picsum.photos/seed/jangdan-logo/200/80" 
             alt="Jangdan Logo" 
             className="h-12 w-auto object-contain brightness-0 invert opacity-80"
+            referrerPolicy="no-referrer"
           />
           <p className="max-w-sm opacity-40 text-sm leading-relaxed">
               © 2024 Jangdan Project. All rights reserved.<br />
@@ -776,7 +767,6 @@ export default function App() {
         )}
       </AnimatePresence>
 
-      {/* Background Decorative Elements */}
       <div className="fixed inset-0 pointer-events-none z-[-1]">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-accent/5 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black to-transparent" />
