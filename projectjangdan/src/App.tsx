@@ -240,6 +240,7 @@ const Hero = () => {
             다양한 개성을 지닌 젊은 아티스트들이 개개인의 예술활동의 다양성을 존중하면서 조화롭게 세상과 교류한다.
             그들은 한국의 전통문화를 주제로 개인의 창작 예술 네트워크 구축을 통해 공연기획, 공공예술 등의 다양한 활동을 병행하고 있으며,
             우리나라의 전통문화와 현대문화를 결합한 다양한 컨텐츠를 제작하여 한국문화의 우수성을 전세계에 알리고자 한다.
+            
             Project_Jangdan releases cultural and artistic contents created by talented artists in various creative fields. 
             Young artists with diverse individualities interact harmoniously with the world while respecting the diversity of individual artistic activities
             With the Korean traditional culture as the t‌heme, they expand their creative works by being faithful to individual creative desires and collective instincts.
