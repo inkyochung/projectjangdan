@@ -572,43 +572,6 @@ const ArtistModal = ({ artist, onClose }: { artist: Artist, onClose: () => void 
           )}
         </section>
 
-        {/* Gallery Section */}
-        {artist.images && artist.images.length > 0 && (
-          <section className="space-y-8 md:space-y-12">
-            <div className="flex items-center justify-between">
-              <h5 className="text-xl md:text-2xl font-bold uppercase tracking-tighter">
-                Gallery
-              </h5>
-              <div className="flex gap-4 opacity-40 text-[10px] md:text-xs uppercase tracking-widest font-bold">
-                <span>02</span>
-                <div className="w-8 md:w-12 h-[1px] bg-white self-center" />
-                <span>Works</span>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-              {artist.images.map((img, idx) => (
-                <motion.div 
-                  key={idx}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: (idx % 8) * 0.05 }}
-                  className="aspect-[3/4] rounded-xl overflow-hidden glass group/img cursor-zoom-in"
-                >
-                  <img 
-                    src={img} 
-                    alt={`${artist.name} work ${idx}`} 
-                    className="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-700"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = `https://picsum.photos/seed/${artist.id}-${idx}/800/1000`;
-                    }}
-                    referrerPolicy="no-referrer"
-                  />
-                </motion.div>
-              ))}
-            </div>
-          </section>
-        )}
-
         {/* Footer Info */}
         <footer className="py-16 md:py-24 border-t border-white/10 flex flex-col md:flex-row justify-between gap-12">
           <div className="max-w-xl space-y-6">
@@ -878,3 +841,4 @@ export default function App() {
     </main>
   );
 }
+
