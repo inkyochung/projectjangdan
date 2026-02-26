@@ -238,6 +238,14 @@ const Hero = () => {
           <p className="text-sm md:text-lg opacity-80 font-light leading-relaxed break-keep">
             프로젝트_장단은 다양한 창작 분야의 재능 있는 아티스트들이 풀어내는 문화, 예술 컨텐츠 프로젝트이다. 
             다양한 개성을 지닌 젊은 아티스트들이 개개인의 예술활동의 다양성을 존중하면서 조화롭게 세상과 교류한다.
+            그들은 한국의 전통문화를 주제로 개인의 창작 예술 네트워크 구축을 통해 공연기획, 공공예술 등의 다양한 활동을 병행하고 있으며,
+            우리나라의 전통문화와 현대문화를 결합한 다양한 컨텐츠를 제작하여 한국문화의 우수성을 전세계에 알리고자 한다.
+            Project_Jangdan releases cultural and artistic contents created by talented artists in various creative fields. 
+            Young artists with diverse individualities interact harmoniously with the world while respecting the diversity of individual artistic activities
+            With the Korean traditional culture as the t‌heme, they expand their creative works by being faithful to individual creative desires and collective instincts.
+            By actively intervening in all processes of socialization of art, they want to show the nature of art where the Korean traditional culture intersects with the modern culture.
+            Through the establishment of an art network of several contemporary artists, various activities including performance planning and public art are being carried out
+            in parallel with producing various contents that merge the Korean traditional culture and modern culture to showcase the excellence of the Korean culture to the world.
           </p>
           <div className="pt-8 border-t border-white/10 w-full max-w-xs">
             <p className="text-[9px] uppercase tracking-[0.2em] font-bold opacity-30">COPYRIGHT Wonderwave 2017. ALL RIGHTS RESERVED.</p>
