@@ -363,7 +363,7 @@ export default function App() {
       <footer className="py-32 px-8 border-t border-white/5">
         <div className="container mx-auto">
           <img src="/logo.png.png" alt="Logo" className="h-12 w-auto mb-8 brightness-0 invert opacity-80" />
-          <p className="opacity-40 text-sm">© 2024 Jangdan Project. All rights reserved.</p>
+          <p className="opacity-40 text-sm">COPYRIGHT Wonderwave 2017. ALL RIGHTS RESERVED.</p>
         </div>
       </footer>
       <AnimatePresence>
